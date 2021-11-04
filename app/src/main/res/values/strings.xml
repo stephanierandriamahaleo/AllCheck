@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Check All</string>
+
+    <string name="label_tool_choice">Choississez le type d\'outil à utiliser: </string>
+    <string name="label_action_choice">Choississez l\'action à faire: </string>
+
+    <string name="valider_btn">Valider</string>
+
+    <string name="error_no_choice_tools">Veuillez selectionner un outil à utiliser</string>
+    <string name="error_no_choice_action">Veuillez selectionner l\'action à faire</string>
+
+    <string name="email_placeholder">Email...</string>
+    <string name="password_placeholder">Password...</string>
+    <string name="pwd_chkbx">Afficher le mot de passe</string>
+
+    <string name="login_btn">Login</string>
+
+    <string name="error_empty_login">Vérifiez les informations saisies</string>
+    <string name="waiting_data">Scannez le QR Code avec l\'appareil</string>
+    <string name="vehicle_number">N° vehicule : </string>
+    <string name="date_label">"Date: "</string>
+
+</resources>

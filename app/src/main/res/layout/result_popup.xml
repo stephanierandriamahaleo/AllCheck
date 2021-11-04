@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/result_popup"
+    android:orientation="vertical"
+    android:layout_width="500dp"
+    android:layout_height="500dp"
+    android:padding="10dp"
+    android:background="#008000">
+    <TextView android:id="@+id/evenement"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:autoSizeTextType="uniform"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#FFF"
+        tools:ignore="InvalidId" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Nom: "
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#FFF" />
+
+        <TextView android:id="@+id/nom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp"
+            android:textColor="#FFF" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Téléphone: "
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#FFF" />
+
+        <TextView android:id="@+id/telephone"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#FFF" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/email_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Email: "
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#FFF" />
+
+        <TextView android:id="@+id/email"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#FFF" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/section_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Section: "
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#FFF" />
+
+        <TextView android:id="@+id/section"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#FFF" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/place_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Place: "
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#FFF" />
+
+        <TextView android:id="@+id/place"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#FFF" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/porte_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Porte: "
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#FFF" />
+
+        <TextView android:id="@+id/porte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#FFF" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/niveau_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Niveau: "
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#FFF" />
+
+        <TextView android:id="@+id/niveau"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#FFF" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/vehicle_number_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/vehicle_number"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#FFF" />
+
+        <TextView android:id="@+id/vehicle_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#FFF" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pre_print_check_date_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/pre_print_date_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Vendu le: "
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#FFF" />
+
+        <TextView android:id="@+id/pre_print_check_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#FFF" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/check_date_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/date_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Vérifié le: "
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#FFF" />
+
+        <TextView android:id="@+id/check_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#FFF" />
+
+    </LinearLayout>
+</LinearLayout>
